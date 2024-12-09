@@ -1,0 +1,36 @@
+body, html{
+    height: 100%;
+    background-image: url("car.png");
+}
+.banner img{
+    width: 100%;
+    border-radius: 25px;
+}
+.nav button{
+    margin-right: 30px;
+}
+.b{
+    display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+    
+}
+.container{
+    width: 2%;
+    float:left;
+    margin: 10px 20px;
+    padding: 15px;
+}
+.bg{
+/* tha imghaga be used*/
+background-image: url("car.png");
+/* full high*/
+height: 100%;
+ /* Center and scale the image nicely */
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+
+
+}
