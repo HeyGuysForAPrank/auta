@@ -1,0 +1,79 @@
+body{
+    background-color: darkgreen;
+    background-image: 600px;
+
+
+}
+@media screen and (max-width: 800px) {
+    body{
+        background-color: red;
+    }.blue{
+        width: 100%;
+        
+    }
+}
+@media screen and (max-width: 1000px) {
+    body{
+        background-color: rgb(0, 44, 4);
+    }
+    .green{
+        display: none;
+    }
+    .orange{
+        display: none;
+    }
+    .yellow{
+        display: none;
+    }
+}
+@media screen and (max-width: 300px) {
+    body{
+        background-color: red;
+    }
+}
+.blue{
+    width: 60%;
+    margin: 30px auto;
+}
+@media screen and (max-width: 800px){
+    .green{
+        width: 95%;
+    }
+    .piros{
+        border: 5px solid;
+    }
+    .green{
+        display: block;
+    }
+    .cim{
+        display: none;
+    }
+}
+/* vfeher resuz*/
+@media screen and (max-width: 600px) {
+
+    .green{
+        border: none;
+    }
+    
+    .yellow{
+        display: block;
+    }
+     
+}
+/* zold resaz*/
+@media screen and (max-width: 400px) {
+    .orange{
+        width: 95%;
+    }
+    .orange{
+        display: block;
+    }
+    .yellow{
+        border: none;
+    }
+    .green{
+        display: none;
+    }
+
+}
